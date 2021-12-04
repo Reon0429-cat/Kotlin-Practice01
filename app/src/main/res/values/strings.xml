@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Kotlin-Practice01</string>
     <string name="hello">ちわ！アンドロイド</string>
+    <string name="tap_here">ここをタップ！</string>
 </resources>
