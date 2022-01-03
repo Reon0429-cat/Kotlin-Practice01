@@ -4,12 +4,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kotlin_practice01.databinding.ActivityMainBinding
 
+
+
+
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
@@ -23,6 +28,9 @@ class MainActivity : AppCompatActivity() {
         //    R.layout.activity_main
         // -> res/layout/activity_main.xml
 //        setContentView(R.layout.activity_main)
+
+        val dog = Dog()
+        dog.say()
 
     }
 
